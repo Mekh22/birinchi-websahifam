@@ -1,0 +1,155 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto" , sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0px 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    border-top: 4px solid grey ;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+   
+}
+
+.nav-links {
+    font-size: 13px;
+    color: black;
+    font-weight:600;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.btn {
+    font-size: 13px;
+    color: white;
+    font-weight:900;
+    text-decoration: none;
+    background-color:green;
+    padding: 12px 24px;
+    border-radius:4px ;
+    border-color: transparent;
+}
+
+.second-header{
+    padding-top: 40px;
+    line-height: 25px;
+    text-align: center;
+    
+
+}
+
+.header2{
+    color: #74C69D;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 3px;
+}
+
+.center-2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.center1{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.for-logo{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.google-logo{
+    max-width: 200px;
+    
+}
+
+.for-learn{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.second-page-button{
+    padding: 13px 30px;
+    background-color: #212529;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: transparent;
+}
+
+.second-page-second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin-right: 0;
+    margin-left: 0;
+
+}
+.second-left{
+    margin-right: 65px;
+}
+
+.groupp{
+    width: 100%;
+}
+
+.lorem{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #212529;
+}
+
+.matn{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.learning{
+    padding: 13px 30px;
+    border-radius: 5px;
+    background-color: #212529;
+    border: transparent;
+    color: #FFFFFF;
+}
